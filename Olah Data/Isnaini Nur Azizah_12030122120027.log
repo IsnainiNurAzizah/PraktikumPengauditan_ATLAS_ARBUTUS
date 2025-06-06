@@ -1,0 +1,644 @@
+Log File C:\Isnaini Nur Azizah_12030122120027\Isnaini Nur Azizah_12030122120027.log Opened at 07:41:39 on 22-May-2025
+@ IMPORT OPENEXCEL TO Inventory FILE "Data\Inventory.xlsx" TABLE "Inventory" SERVER "LOCAL" FLAT "Realsa\Inventory.FIL" 
+@ OPEN Inventory TABLE 0
+  6 fields activated
+@ VERIFY FIELDS ALL ERRORLIMIT 20
+<<< Table Data:InventoryVERIFY >>>
+RecordFieldTypeContents (text)Contents (hex)
+
+13Cost_DateDATETIME          20 20 20 20 20 20 20 20 20 20 
+
+<<< Table End >>>
+  1 data validity errors detected
+@ LOCATE RECORD 13
+Located record 13
+@ GAPS ON  Product_Number PRESORT
+Presorting Primary data file.
+<<< Table Data:InventoryGAPS >>>
+Gap Start orGap EndNumber of
+Missing ItemMissing Items
+
+1010271110102839129
+101028411011903916199
+101190411013441915379
+1013442110135059639
+101350611015514920089
+10155151101551599
+10155161101551699
+101551711020721952049
+102072211022661919399
+102266211031088984269
+1031089110311799909
+1031180110311989189
+1031199110551339239349
+105513411063113979799
+106311411063118949
+1063119110803759172569
+108037612390371113099951
+239037132394637142659
+239463732397304126669
+2397304324100311127269
+24100313241043113999
+24104313241065112199
+24106513241086112099
+24108613241121613549
+24112163241213319169
+24121333241287117379
+241287132412881199
+2412881324128931119
+24128933241305711639
+24130573241331112539
+24133113241393716259
+2413937324140031659
+24140033241448114779
+241448132418843143619
+24188433241952616829
+24195263300303225835060
+3003032430302302271979
+3030230430302902599
+3030290430303342439
+303033443030340259
+30303404303034129
+30303414303093725959
+303093743032166212289
+303216643032168219
+3032168430322302619
+30322304303248022499
+303248043032488279
+303248843036416239279
+303641643041255248389
+3041255430412752199
+3041275430412902149
+30412904304142821379
+304142843041431229
+3041431430934422520109
+30934424342550023320579
+34255004402200735965070
+40220075402249834909
+402249854022501329
+4022501540225933919
+4022593540226053119
+40226055402321936139
+40232195402402838089
+4024028540240663379
+4024066540240883219
+4024088540241313429
+4024131540241753439
+40241755402432231469
+40243225402470333809
+402470354027032323289
+402703254027035329
+40270355402760535699
+40276055402771531099
+402771555220451411927360
+52204516522045249
+52204526522088044279
+52208806522105441739
+5221054652484404273859
+52484406524844149
+52484416524844249
+52484426524844349
+524844365250400419569
+525040065253015426149
+5253015652720304190149
+5272030652720614309
+527206165277001449399
+52770016601003057330290
+60100307601003159
+601003176010033519
+601003376010035519
+60100357601020651709
+601020676010208519
+60102087601020959
+60102097601021059
+60102107601021159
+601021176011227510159
+601122776011229519
+601122976011235559
+601123576020030587949
+602003076021706516759
+60217067602214954429
+60221497602215059
+6022150760221675169
+60221677701041769882500
+7010417870104326149
+701043287010434619
+701043487010437629
+701043787010439619
+7010439870104656259
+701046587010467619
+70104678801008179996140
+8010081980101017199
+80101019801026171599
+80102619801026279
+8010262980102917289
+80102919801062173299
+801062198012343717219
+8012343980123937499
+801239398012396729
+8012396980124517549
+80124519801260071489
+801260098012605749
+8012605980126307249
+8012630980435437309129
+804354398051277777339
+8051277980935297422519
+8093529980935427129
+80935429809387473319
+8093874980938997249
+80938999900100109071012
+900100129006959059579
+900695929008100011409
+9008100290501050420049
+9050105290501540489
+90501542905015509
+90501552905040602509
+9050406290504760699
+90504762905063301569
+90506332905078101479
+905078129050784029
+90507842905078509
+9050785290508190339
+90508192905095601369
+9050956290509930369
+905099329050998049
+905099829058407174090
+90584073905853211249
+905853239059991114589
+905999139066961069698
+90669612937884103118799
+9378841213030560236517191
+13030560418012215749816554
+
+<<< Table End >>>
+  151 gaps detected
+@ DUPLICATES ON Product_Number PRESORT
+Presorting Primary data file.
+  0 duplicates detected
+@ TOTAL FIELDS Inventory_Cost
+<<< Table Data:InventoryTOTAL >>>
+Field NameTotal
+
+Inventory_Cost320,557,500
+
+<<< Table End >>>
+@ STATISTICS ON ALL NUMBER 5
+<<< Table Data:InventorySTATISTICSCost_Date >>>
+Field: Cost_DateNumberTotalAverage
+
+Valid15104-Aug-2021
+Invalid0
+Blank1
+Weekends47
+Range356 Days 
+
+<<< Table End >>>
+<<< Table Data:InventorySORTCost_Date:Cost_Date >>>
+HighestLowest
+
+29-Dec-202107-Jan-2021
+29-Dec-202107-Jan-2021
+29-Dec-202107-Jan-2021
+29-Dec-202107-Jan-2021
+18-Dec-202107-Jan-2021
+
+<<< Table End >>>
+<<< Table Data:InventorySTATISTICSQuantitiy >>>
+Field: QuantitiyNumberTotalAverage
+
+Positive1493,84226
+Zeros1
+Negative2-2-1
+Totals1523,84025
+Abs Value3,844
+Range50
+
+<<< Table End >>>
+<<< Table Data:InventorySORTQuantitiy:Quantitiy >>>
+HighestLowest
+
+49-1
+48-1
+480
+471
+473
+
+<<< Table End >>>
+<<< Table Data:InventorySTATISTICSCost_per_unit >>>
+Field: Cost_per_unitNumberTotalAverage
+
+Positive15212,795,00084,178
+Zeros0
+Negative000
+Totals15212,795,00084,178
+Abs Value12,795,000
+Range65,000
+
+<<< Table End >>>
+<<< Table Data:InventorySORTCost_per_unit:Cost_per_unit >>>
+HighestLowest
+
+110,00045,000
+110,00045,000
+110,00045,000
+110,00045,000
+110,00045,000
+
+<<< Table End >>>
+<<< Table Data:InventorySTATISTICSInventory_Cost >>>
+Field: Inventory_CostNumberTotalAverage
+
+Positive149320,757,5002,152,735
+Zeros1
+Negative2-200,000-100,000
+Totals152320,557,5002,108,931
+Abs Value320,957,500
+Range5,160,000
+
+<<< Table End >>>
+<<< Table Data:InventorySORTInventory_Cost:Inventory_Cost >>>
+HighestLowest
+
+5,060,000-100,000
+4,950,000-100,000
+4,950,0000
+4,950,000100,000
+4,900,000150,000
+
+<<< Table End >>>
+@ SET FILTER TO Quantitiy=-1
+@ OPEN Inventory
+Closing Table Inventory (Table 0) and all active fields
+  6 fields activated
+@ IMPORT OPENEXCEL TO Cash_GL FILE "Data\Cash GL.xlsx" TABLE "Sheet1" SERVER "LOCAL" FLAT "Realsa\Cash GL.FIL" 
+@ OPEN Cash_GL TABLE 1
+  7 fields activated
+@ VERIFY FIELDS ALL ERRORLIMIT 20
+  0 data validity errors detected
+@ OPEN Cash_GL TABLE 1
+Closing Table Cash_GL (Table 1) and all active fields
+  7 fields activated
+@ EXTRACT FIELDS Amount_Credit TO "Otorisasi Level 1" OPEN IF Between( Amount_Credit , 20000000, 50000000)
+  69 of 100 met the test: Between( Amount_Credit , 20000000, 50000000)
+  Extraction to Table Otorisasi Level 1.fil is complete
+  69 records produced
+@ OPEN Otorisasi_Level_1 TABLE 1
+Closing Table Cash_GL (Table 1) and all active fields
+  1 fields activated
+@ OPEN Inventory TABLE 1
+Closing Table Otorisasi_Level_1 (Table 1) and all active fields
+  6 fields activated
+@ OPEN Otorisasi_Inventoryl_1 TABLE 1
+Closing Table Inventory (Table 1) and all active fields
+Unable to open file C:\Isnaini Nur Azizah_12030122120027\Otorisasi_Inventoryl_1.fmt (No such file or directory).
+Table layout Otorisasi_Inventoryl_1 corrupted
+@ DELETE FORMAT Otorisasi_Inventoryl_1
+Unable to open file C:\Isnaini Nur Azizah_12030122120027\Otorisasi_Inventoryl_1.fmt (No such file or directory).
+Format 'Otorisasi_Inventoryl_1' deleted.
+@ OPEN Inventory
+Closing Table Inventory (Table 0) and all active fields
+  6 fields activated
+@ OPEN Cash_GL
+Closing Table Inventory (Table 0) and all active fields
+  7 fields activated
+@ OPEN Inventory
+Closing Table Cash_GL (Table 0) and all active fields
+  6 fields activated
+@ EXTRACT FIELDS ALL TO "Otorisasi Inventory 1" OPEN IF Between( Inventory_Cost , 10000000, 50000000)
+  0 of 152 met the test: Between( Inventory_Cost , 10000000, 50000000)
+  Extraction to Table Otorisasi Inventory 1.fil is complete
+  0 records produced
+@ OPEN Otorisasi_Inventory_1
+Closing Table Inventory (Table 0) and all active fields
+  6 fields activated
+@ OPEN Otorisasi_Inventory_1
+Closing Table Otorisasi_Inventory_1 (Table 0) and all active fields
+  6 fields activated
+@ CLOSE
+Closing Table Otorisasi_Inventory_1 (Table 0) and all active fields
+@ DELETE FORMAT Otorisasi_Inventory_1
+Data file 'C:\Isnaini Nur Azizah_12030122120027\Otorisasi Inventory 1.fil' deleted.
+Format 'Otorisasi_Inventory_1' deleted.
+View 'Otorisasi_Inventory_1' deleted.
+@ OPEN Inventory
+  6 fields activated
+@ OPEN Cash_GL
+Closing Table Inventory (Table 0) and all active fields
+  7 fields activated
+@ EXTRACT FIELDS ALL TO "C:\Isnaini Nur Azizah_12030122120027\Extract\Otorisasi Cash 1" OPEN IF Between( Amount_Credit , 20000000, 50000000) NEXT
+Enter the FIRST/NEXT range:
+Enter the FIRST/NEXT range:
+@ EXTRACT FIELDS ALL TO "C:\Isnaini Nur Azizah_12030122120027\Extract\Otorisasi Cash 1" OPEN IF Between( Amount_Credit , 20000000, 50000000)
+  69 of 100 met the test: Between( Amount_Credit , 20000000, 50000000)
+  Extraction to Table C:\Isnaini Nur Azizah_12030122120027\Extract\Otorisasi Cash 1.fil is complete
+  69 records produced
+@ OPEN Otorisasi_Cash_1
+Closing Table Cash_GL (Table 0) and all active fields
+  7 fields activated
+@ OPEN Cash_GL
+Closing Table Otorisasi_Cash_1 (Table 0) and all active fields
+  7 fields activated
+@ OPEN Otorisasi_Cash_1
+Closing Table Cash_GL (Table 0) and all active fields
+  7 fields activated
+@ OPEN Otorisasi_Cash_1
+Closing Table Otorisasi_Cash_1 (Table 0) and all active fields
+  7 fields activated
+@ OPEN Otorisasi_Cash_1
+Closing Table Otorisasi_Cash_1 (Table 0) and all active fields
+  7 fields activated
+@ EXPORT EXCEL TO "C:\Isnaini Nur Azizah_12030122120027\Presentasi\Otorisasi Cash 1 Excel" TABLE Otorisasi_Cash_1 FIELDS ALL
+  69 records produced
+  Output to C:\Isnaini Nur Azizah_12030122120027\Presentasi\Otorisasi Cash 1 Excel.xlsx is done
+@ OPEN Cash_GL
+Closing Table Otorisasi_Cash_1 (Table 0) and all active fields
+  7 fields activated
+@ OPEN Otorisasi_Cash_1
+Closing Table Cash_GL (Table 0) and all active fields
+  7 fields activated
+@ OPEN Cash_GL
+Closing Table Otorisasi_Cash_1 (Table 0) and all active fields
+  7 fields activated
+@ OPEN Inventory
+Closing Table Cash_GL (Table 0) and all active fields
+  6 fields activated
+@ OPEN Cash_GL
+Closing Table Inventory (Table 0) and all active fields
+  7 fields activated
+@ OPEN Otorisasi_Cash_1
+Closing Table Cash_GL (Table 0) and all active fields
+  7 fields activated
+@ EXTRACT FIELDS ALL TO "C:\Isnaini Nur Azizah_12030122120027\Extract\Otorisasi Cash 2" OPEN IF Between( Amount_Credit , 50000000, 100000000)
+  0 of 69 met the test: Between( Amount_Credit , 50000000, 100000000)
+  Extraction to Table C:\Isnaini Nur Azizah_12030122120027\Extract\Otorisasi Cash 2.fil is complete
+  0 records produced
+@ OPEN Otorisasi_Cash_2
+Closing Table Otorisasi_Cash_1 (Table 0) and all active fields
+  7 fields activated
+@ OPEN Otorisasi_Cash_1
+Closing Table Otorisasi_Cash_2 (Table 0) and all active fields
+  7 fields activated
+@ OPEN Otorisasi_Cash_2
+Closing Table Otorisasi_Cash_1 (Table 0) and all active fields
+  7 fields activated
+@ OPEN Otorisasi_Cash_1
+Closing Table Otorisasi_Cash_2 (Table 0) and all active fields
+  7 fields activated
+@ OPEN Otorisasi_Cash_2
+Closing Table Otorisasi_Cash_1 (Table 0) and all active fields
+  7 fields activated
+@ CLOSE
+Closing Table Otorisasi_Cash_2 (Table 0) and all active fields
+@ DELETE FORMAT Otorisasi_Cash_2
+Data file 'Extract\Otorisasi Cash 2.fil' deleted.
+Format 'Otorisasi_Cash_2' deleted.
+View 'Otorisasi_Cash_2' deleted.
+@ OPEN Cash_GL
+  7 fields activated
+@ EXTRACT FIELDS ALL TO "Otorisasi Cash 2" OPEN IF Between( Amount_Credit , 500000001, 100000000)
+  1 of 100 met the test: Between( Amount_Credit , 500000001, 100000000)
+  Extraction to Table Otorisasi Cash 2.fil is complete
+  1 records produced
+@ OPEN Otorisasi_Cash_2
+Closing Table Cash_GL (Table 0) and all active fields
+  7 fields activated
+@ OPEN Otorisasi_Cash_2
+Closing Table Otorisasi_Cash_2 (Table 0) and all active fields
+  7 fields activated
+@ OPEN Otorisasi_Cash_1
+Closing Table Otorisasi_Cash_2 (Table 0) and all active fields
+  7 fields activated
+@ OPEN Otorisasi_Cash_2
+Closing Table Otorisasi_Cash_1 (Table 0) and all active fields
+  7 fields activated
+@ OPEN Otorisasi_Cash_2
+Closing Table Otorisasi_Cash_2 (Table 0) and all active fields
+  7 fields activated
+@ OPEN Cash_GL
+Closing Table Otorisasi_Cash_2 (Table 0) and all active fields
+  7 fields activated
+@ OPEN Cash_GL
+Closing Table Cash_GL (Table 0) and all active fields
+  7 fields activated
+@ OPEN Cash_GL
+Closing Table Cash_GL (Table 0) and all active fields
+  7 fields activated
+@ EXTRACT FIELDS ALL TO "C:\Isnaini Nur Azizah_12030122120027\Extract\otorisasi Cash 2" OPEN IF Between( Amount_Credit , 50000001, 100000000)
+File exists; APPEND option chosen
+  2 of 100 met the test: Between( Amount_Credit , 50000001, 100000000)
+  Extraction to Table C:\Isnaini Nur Azizah_12030122120027\Otorisasi Cash 2.fil is complete
+  2 records produced
+@ OPEN otorisasi_Cash_2
+Closing Table Cash_GL (Table 0) and all active fields
+  7 fields activated
+@ OPEN Cash_GL
+Closing Table Otorisasi_Cash_2 (Table 0) and all active fields
+  7 fields activated
+@ OPEN Otorisasi_Cash_1
+Closing Table Cash_GL (Table 0) and all active fields
+  7 fields activated
+@ OPEN Otorisasi_Cash_2
+Closing Table Otorisasi_Cash_1 (Table 0) and all active fields
+  7 fields activated
+@ OPEN Otorisasi_Cash_2
+Closing Table Otorisasi_Cash_2 (Table 0) and all active fields
+  7 fields activated
+@ OPEN Otorisasi_Cash_1
+Closing Table Otorisasi_Cash_2 (Table 0) and all active fields
+  7 fields activated
+@ OPEN Otorisasi_Cash_2
+Closing Table Otorisasi_Cash_1 (Table 0) and all active fields
+  7 fields activated
+@ OPEN Inventory
+Closing Table Otorisasi_Cash_2 (Table 0) and all active fields
+  6 fields activated
+@ OPEN Cash_GL
+Closing Table Inventory (Table 0) and all active fields
+  7 fields activated
+@ OPEN Cash_GL
+Closing Table Cash_GL (Table 0) and all active fields
+  7 fields activated
+@ OPEN Cash_GL
+Closing Table Cash_GL (Table 0) and all active fields
+  7 fields activated
+@ SEQUENCE ON Voucher_Number ERRORLIMIT 20
+  0 data sequence errors detected
+@ GAPS ON Account_Number PRESORT
+Presorting Primary data file.
+  0 gaps detected
+@ GAPS ON Voucher_Number PRESORT
+Presorting Primary data file.
+<<< Table Data:Cash_GLGAPS >>>
+Gap Start orGap EndNumber of
+Missing ItemMissing Items
+
+12100021000
+
+<<< Table End >>>
+  1 gaps detected
+@ DUPLICATES ON Voucher_Number PRESORT
+Presorting Primary data file.
+  0 duplicates detected
+@ OPEN Otorisasi_Cash_1
+Closing Table Cash_GL (Table 0) and all active fields
+  7 fields activated
+@ OPEN Otorisasi_Cash_2
+Closing Table Otorisasi_Cash_1 (Table 0) and all active fields
+  7 fields activated
+@ OPEN Cash_GL
+Closing Table Otorisasi_Cash_2 (Table 0) and all active fields
+  7 fields activated
+@ EXTRACT FIELDS Amount_Credit TO "C:\Isnaini Nur Azizah_12030122120027\Extract\Otorisasi Cash 3" OPEN IF ( Amount_Credit ,  >  100000000)
+@ EXTRACT FIELDS Amount_Credit TO "C:\Isnaini Nur Azizah_12030122120027\Extract\Otorisasi Cash 3" OPEN IF ( Amount_Credit  >  100000000)
+  1 of 100 met the test: ( Amount_Credit  >  100000000)
+  Extraction to Table C:\Isnaini Nur Azizah_12030122120027\Extract\Otorisasi Cash 3.fil is complete
+  1 records produced
+@ OPEN Otorisasi_Cash_3
+Closing Table Cash_GL (Table 0) and all active fields
+  1 fields activated
+@ OPEN Otorisasi_Cash_2
+Closing Table Otorisasi_Cash_3 (Table 0) and all active fields
+  7 fields activated
+@ OPEN Otorisasi_Cash_3
+Closing Table Otorisasi_Cash_2 (Table 0) and all active fields
+  1 fields activated
+@ OPEN Otorisasi_Cash_2
+Closing Table Otorisasi_Cash_3 (Table 0) and all active fields
+  7 fields activated
+@ OPEN Otorisasi_Cash_3
+Closing Table Otorisasi_Cash_2 (Table 0) and all active fields
+  1 fields activated
+@ OPEN Otorisasi_Cash_2
+Closing Table Otorisasi_Cash_3 (Table 0) and all active fields
+  7 fields activated
+Select Table 
+Closing Table Otorisasi_Cash_2 (Table 0) and all active fields
+@ OPEN Otorisasi_Cash_2
+  7 fields activated
+Select Table 
+Closing Table Otorisasi_Cash_2 (Table 0) and all active fields
+@ OPEN Inventory
+  6 fields activated
+@ OPEN Otorisasi_Cash_2
+Closing Table Inventory (Table 0) and all active fields
+  7 fields activated
+Select Table 
+Closing Table Otorisasi_Cash_2 (Table 0) and all active fields
+@ OPEN Inventory
+  6 fields activated
+@ OPEN Otorisasi_Cash_3
+Closing Table Inventory (Table 0) and all active fields
+  1 fields activated
+@ OPEN Otorisasi_Cash_2
+Closing Table Otorisasi_Cash_3 (Table 0) and all active fields
+  7 fields activated
+@ EXPORT EXCEL TO "C:\Isnaini Nur Azizah_12030122120027\Presentasi\Otorisasi Cash 2" TABLE Otorisasi_Cash_2 FIELDS ALL
+  3 records produced
+  Output to C:\Isnaini Nur Azizah_12030122120027\Presentasi\Otorisasi Cash 2.xlsx is done
+@ OPEN Otorisasi_Cash_3
+Closing Table Otorisasi_Cash_2 (Table 0) and all active fields
+  1 fields activated
+@ EXPORT EXCEL TO "C:\Isnaini Nur Azizah_12030122120027\Presentasi\Otorisasi Cash 3" TABLE Otorisasi_Cash_3 FIELDS ALL
+  1 records produced
+  Output to C:\Isnaini Nur Azizah_12030122120027\Presentasi\Otorisasi Cash 3.xlsx is done
+@ OPEN Otorisasi_Cash_2
+Closing Table Otorisasi_Cash_3 (Table 0) and all active fields
+  7 fields activated
+@ OPEN Cash_GL
+Closing Table Otorisasi_Cash_2 (Table 0) and all active fields
+  7 fields activated
+@ EXPORT EXCEL TO "C:\Isnaini Nur Azizah_12030122120027\Presentasi\Satatus Control Cash GL" TABLE Cash_GL FIELDS ALL
+  100 records produced
+  Output to C:\Isnaini Nur Azizah_12030122120027\Presentasi\Satatus Control Cash GL.xlsx is done
+@ OPEN Cash_GL
+@ OPEN Cash_GL
+Closing Table Cash_GL (Table 0) and all active fields
+  8 fields activated
+@ OPEN Inventory
+Closing Table Cash_GL (Table 0) and all active fields
+  6 fields activated
+@ OPEN Cash_GL
+Closing Table Inventory (Table 0) and all active fields
+  8 fields activated
+@ CLASSIFY ON Status_Control ACCUMULATE Amount_Credit TOP ALL
+<<< Table Data:Cash_GLCLASSIFYStatus_Control >>>
+Page ...   1                                         22-May-2025  10:22:33
+Produced with Arbutus Analyzer by: Universitas Diponegoro, LabAkt10
+
+Status_Control   CountPercent of CountPercent of FieldAmount_Credit
+
+Level Satu          69 69.00% 81.79%2406,342,244
+None                28 28.00% 11.38%334,862,928
+Level Dua            2  2.00%  3.43%100,826,357
+Level Tiga           1  1.00%  3.41%100,200,000
+
+                   100100.00%100.00%2942,231,529
+
+<<< Table End >>>
+  4 records produced
+@ OPEN Cash_GL
+Closing Table Cash_GL (Table 0) and all active fields
+  8 fields activated
+@ CLASSIFY ON Status_Control ACCUMULATE ALL TOP ALL
+<<< Table Data:Cash_GLCLASSIFYStatus_Control >>>
+Page ...   1                                         22-May-2025  10:23:22
+Produced with Arbutus Analyzer by: Universitas Diponegoro, LabAkt10
+
+Status_Control   CountPercent of CountPercent of FieldVoucher_NumberAccount_NumberAmount_DebitAmount_Credit     Balance
+
+Level Satu          69 69.00% 69.69%1,452,3976,9692425,581,9582406,342,2448354,299,582
+None                28 28.00% 27.27%568,3642,828418,385,483334,862,9284043,024,131
+Level Dua            2  2.00%  2.02%42,090202118,447,088100,826,357337,394,496
+Level Tiga           1  1.00%  1.01%21,0991010100,200,000140,758,000
+
+                   100100.00%100.00%2,083,95010,1002962,414,5292942,231,52912875,476,209
+
+<<< Table End >>>
+  4 records produced
+@ SET FILTER TO Status_Control="Level Satu"
+@ EXPORT EXCEL TO "C:\Isnaini Nur Azizah_12030122120027\Presentasi\Status Control Level 1" TABLE Cash_GL FIELDS ALL
+  69 records produced
+  Output to C:\Isnaini Nur Azizah_12030122120027\Presentasi\Status Control Level 1.xlsx is done
+  69 of 100 matched the Filter: Status_Control="Level Satu"
+@ SET FILTER TO Status_Control="None      "
+@ EXPORT EXCEL TO "C:\Isnaini Nur Azizah_12030122120027\Presentasi\Status Control None" TABLE Cash_GL FIELDS ALL
+  28 records produced
+  Output to C:\Isnaini Nur Azizah_12030122120027\Presentasi\Status Control None.xlsx is done
+  28 of 100 matched the Filter: Status_Control="None      "
+@ SET FILTER TO Status_Control="Level Dua "
+@ EXPORT EXCEL TO "C:\Isnaini Nur Azizah_12030122120027\Presentasi\Status Control Level 2" TABLE Cash_GL FIELDS ALL
+  2 records produced
+  Output to C:\Isnaini Nur Azizah_12030122120027\Presentasi\Status Control Level 2.xlsx is done
+  2 of 100 matched the Filter: Status_Control="Level Dua "
+@ SET FILTER TO Status_Control="Level Tiga"
+@ EXPORT EXCEL TO "C:\Isnaini Nur Azizah_12030122120027\Presentasi\Status Control Level 3" TABLE Cash_GL FIELDS ALL
+  1 records produced
+  Output to C:\Isnaini Nur Azizah_12030122120027\Presentasi\Status Control Level 3.xlsx is done
+  1 of 100 matched the Filter: Status_Control="Level Tiga"
+@ OPEN Cash_GL
+Closing Table Cash_GL (Table 0) and all active fields
+  8 fields activated
+@ OPEN Inventory
+Closing Table Cash_GL (Table 0) and all active fields
+  6 fields activated
+@ OPEN Cash_GL
+Closing Table Inventory (Table 0) and all active fields
+  8 fields activated
+@ OPEN Inventory
+Closing Table Cash_GL (Table 0) and all active fields
+  6 fields activated
+@ OPEN Otorisasi_Cash_1
+Closing Table Inventory (Table 0) and all active fields
+  7 fields activated
+@ OPEN Otorisasi_Cash_2
+Closing Table Otorisasi_Cash_1 (Table 0) and all active fields
+  7 fields activated
+@ OPEN Otorisasi_Cash_3
+Closing Table Otorisasi_Cash_2 (Table 0) and all active fields
+  1 fields activated
+@ OPEN Inventory
+Closing Table Otorisasi_Cash_3 (Table 0) and all active fields
+  6 fields activated
+@ OPEN Cash_GL
+Closing Table Inventory (Table 0) and all active fields
+  8 fields activated

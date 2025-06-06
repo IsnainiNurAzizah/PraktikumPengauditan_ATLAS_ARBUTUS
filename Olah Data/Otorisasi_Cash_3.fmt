@@ -1,0 +1,13 @@
+FILE_NAME Extract\Otorisasi Cash 3.fil
+~Table Imported via OpenXML Excel 22-May-2025 08:51:28
+~.22-May-2025 08:51:51 _ IMPORT OPENEXCEL TO Cash_GL FILE "Data\Cash GL.xlsx" TABLE "Sheet1" SERVER "LOCAL" FLAT "Realsa\Cash GL.FIL" 
+~.22-May-2025 09:50:50 Cash_GL EXTRACT FIELDS Amount_Credit TO "C:\Isnaini Nur Azizah_12030122120027\Extract\Otorisasi Cash 3" OPEN IF ( Amount_Credit  >  100000000)
+~Input : Records:100         Control Total:0                    
+~Output: Records:1           Control Total:0                    
+[FILESIZE] 1
+[LASTVIEW] "Otorisasi_Cash_3"
+[SERVER] LOCAL
+[UTF8]
+[VERSION] 1
+RECORD_LENGTH 9
+Amount_Credit                   PRINT       1   9 0 DECIMAL '.'  

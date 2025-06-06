@@ -1,0 +1,22 @@
+FILE_NAME Extract\Otorisasi Cash 2.fil
+~Table Imported via OpenXML Excel 22-May-2025 08:51:28
+~.22-May-2025 08:51:51 _ IMPORT OPENEXCEL TO Cash_GL FILE "Data\Cash GL.xlsx" TABLE "Sheet1" SERVER "LOCAL" FLAT "Realsa\Cash GL.FIL" 
+~.22-May-2025 09:26:04 Cash_GL EXTRACT FIELDS ALL TO "Otorisasi Cash 2" OPEN IF Between( Amount_Credit , 500000001, 100000000)
+~Input : Records:100         Control Total:0                    
+~Output: Records:1           Control Total:0                    
+~.22-May-2025 09:27:56 Cash_GL EXTRACT FIELDS ALL TO "C:\Isnaini Nur Azizah_12030122120027\Extract\otorisasi Cash 2" OPEN IF Between( Amount_Credit , 50000001, 100000000)
+~Input : Records:100         Control Total:0                    
+~Output: Records:2           Control Total:0                    
+[FILESIZE] 3
+[LASTVIEW] "Otorisasi_Cash_2"
+[SERVER] LOCAL
+[UTF8]
+[VERSION] 1
+RECORD_LENGTH 55
+Posting_Date                    DATETIME    1  10   PICTURE "yyyy-mm-dd"  
+Voucher_Number                  PRINT      11   5 0 DECIMAL '.'  
+Voucher__Description            UTF8       16  10    
+Account_Number                  PRINT      26   3 0 DECIMAL '.'  
+Amount_Debit                    PRINT      29   9 0 DECIMAL '.'  
+Amount_Credit                   PRINT      38   9 0 DECIMAL '.'  
+Balance                         PRINT      47   9 0 DECIMAL '.'  
