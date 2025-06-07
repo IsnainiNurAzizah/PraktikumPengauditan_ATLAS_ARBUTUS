@@ -1,4 +1,4 @@
-# PRAKTIKUM PENGAUDITAS ATLAS & ARBUTUS
+# PRAKTIKUM PENGAUDITAN ATLAS & ARBUTUS
 ## Analisis Audit Data Perusahaan Dagang
 <table align="center">
   <tr><td>Nama</td><td>Isnaini Nur Azizah</td></tr> 
